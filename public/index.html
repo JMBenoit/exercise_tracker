@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Tracker</title>
+</head>
+<body>
+    <h1>Exercise Tracker</h1>
+    <div id="newUser">
+        <h2>Check for username</h2>
+        <input type="text" placeholder="username" id="newUsername">
+        <button id="newUserSubmit">Submit</button>
+        <p id="newUserFeedback"></p>
+    </div>
+    <div id="newExercise">
+        <h2>Add exercise</h2>
+        <input type="text" id="username" placeholder="Username*" required>
+        <input type="text" id="description" placeholder="Description*" required>
+        <input type="text" id="duration" placeholder="Duration* (mins.)" required>
+        <input type="text" id="date" placeholder="Date (MM-DD-YYYY)">
+        <button id="newExerciseSubmit">Submit</button>
+        <p id="newExerciseFeedback"></p>
+    </div>
+    <div id="getLog">
+        <h2>Retrieve Logs</h2>
+        <input type="text" placeholder="username" id="getLogsUsername">
+        <button id="getLogsSubmit">Submit</button>
+        <p id="getLogsFeedback"></p>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
